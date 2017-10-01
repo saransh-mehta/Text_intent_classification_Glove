@@ -3,3 +3,5 @@ Stanford's Glove word-vector embeddings are a representation of words into a n- 
 In this project, Stanford Glove's pre-trained model has been used as a reference for word-vectors of 400k words from wikipedia.
 For intent classification of any sentence, each class is having some number of sample sentences,. All these sample sentences have been converted to certain vectors (by summing the vector values of individual words). The centroid of each class is calculated by taking the mean of vectors in each group.
 Finally, the given sentence is converted to vector similarly and its distance from each centroid is calculated. The class with the minimum distance is the reqired class.
+
+https://medium.com/rasa-blog/do-it-yourself-nlp-for-bot-developers-2e2da2817f3d
